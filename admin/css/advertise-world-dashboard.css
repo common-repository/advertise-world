@@ -1,0 +1,63 @@
+.advertise-world-admin-container {
+    padding-left: 18px;
+}
+.advertise-world-contact-us-logo {
+    max-width: 100%;
+    margin: 10px 0 25px 0;
+}
+
+#advertise-world-email-email,
+#advertise-world-email-name {
+    display: block;
+    background-color: #f1f1f1;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#advertise-world-email-body {
+    height: 150px;
+    text-align: left;
+    display: block;
+    background-color: #f1f1f1;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.advertise-world-contact-us-table {
+    width: 100%;
+    max-width: 500px;
+    background-color: #ffffff;
+    border: 1px solid #AAAAAA;
+    margin-bottom: 35px;
+    color: #000000;
+    padding: 15px 0;
+}
+
+.advertise-world-contact-us-label {
+    width: 35%;
+    padding: 0 15px;
+    height: 42px;
+    line-height: 42px;
+    valign: center;
+}
+
+.advertise-world-contact-us-field {
+    width: 65%;
+}
+
+@media (max-width: 600px) {
+    .advertise-world-contact-us-label {
+        display: inline-block;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .advertise-world-contact-us-field {
+        display: inline-block;
+        width: 100%;
+        padding: 0;
+    }
+}
